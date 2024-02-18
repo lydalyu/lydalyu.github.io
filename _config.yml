@@ -31,8 +31,8 @@ github_username:  lydalyu
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
+# plugins:
+#   - jekyll-feed
 sass:
   sass_dir: _sass
   style: compressed
