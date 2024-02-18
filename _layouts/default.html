@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Liudmyla Chernyk</title>
+        <link rel="icon" href="/file-richtext.svg" type="image/svg+xml">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+    </head>
+    <body>
+        <main class="container mx-auto">
+            {% include header.html %}
+            <section class="content">
+                {{ content }}
+            </section>            
+        </main>    
+    </body>
+</html>
