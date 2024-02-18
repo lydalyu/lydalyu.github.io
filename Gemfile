@@ -33,4 +33,4 @@ end
 # gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 # gem 'jekyll-sass-converter'
 gem 'kramdown-parser-gfm'
-gem "webrick", "~> 1.5"
+gem "webrick", "~> 1.3"
