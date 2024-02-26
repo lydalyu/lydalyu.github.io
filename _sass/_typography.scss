@@ -2,5 +2,15 @@
 
 body {
     font-family: "Ubuntu", Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 14pt;
+}
+@media screen and (max-width:659) {
+    body {
+            font-size: 11pt;
+    }
+}
+@media print {
+    body {
+            font-size: 12pt;
+        }
 }

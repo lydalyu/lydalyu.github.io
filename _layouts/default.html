@@ -5,15 +5,14 @@
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>Liudmyla Chernyk</title>
         <link rel="icon" href="/file-richtext.svg" type="image/svg+xml">
-        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://cdn.tailwindcss.com"></script>        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
         <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
     </head>
-    <body class="bg-slate-50">
-        <main class="container mx-auto bg-white">
+    <body class="bg-slate-50 print:bg-white relative">
+        <main class="container mx-auto bg-white my-4 print:m-0 print:p-0 static ...">
             {% include header.html %}
-            <section class="content p-3">
-                {{ content }}
-            </section>            
+            {{ content }}                       
         </main>    
     </body>
 </html>

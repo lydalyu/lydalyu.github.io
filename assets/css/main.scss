@@ -5,6 +5,17 @@
 
 @import "typography";
 
-.content {
-    padding: 0;
+@media screen and (max-width:639px) {
+    .language {
+        margin-top: -1.3rem;
+    }
+}
+@media print {
+   .container {
+    width: 100% !important;
+    max-width: 100% !important;
+    .language .active {
+        border-top: 1px solid #818cf8;
+    }
+   }
 }
