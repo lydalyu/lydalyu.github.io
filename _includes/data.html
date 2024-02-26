@@ -1,0 +1,196 @@
+<div id="front" class="content shadow shadow-indigo-600 box-content grid grid-cols-3 print:block">
+    <aside class="border-e border-indigo-400 py-2 box-border w-full col-span-1 print:w-1/3 print:float-left">
+        <div class="left px-5 print:pr-2 print:pl-0 ">
+            <div class="py-2 btn-collapse hover:bg-indigo-200" title="Collapse">
+                <h2 class="uppercase text-2xl font-semibold flex flex-row items-center cursor-pointer">
+                    <span>{{arr.details}}</span>
+                    <span class="arrow ml-auto h-5 w-5 shrink-0 rotate-180 fill-black transition-transform duration-200 ease-in-out motion-reduce:transition-none print:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="h-6 w-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </span>
+                </h2>
+                <hr class="mt-4 border-e border-indigo-400 w-12">
+            </div>
+            <div class="tocollapse">
+                <div class="my-4 print:mt-0">
+                    <div class="font-semibold uppercase">{{arr.mail.label}}:</div>
+                    <div class="col-span-2">{{arr.mail.text}}</div>
+                </div>
+                <div class="my-4">
+                    <div class="font-semibold uppercase">{{arr.address}}:</div>
+                    <div class="col-span-2">{{arr.city}}, {{arr.country}}</div>
+                </div>
+                <div class="my-4">
+                    <div class="font-semibold uppercase">{{arr.drive_license.label}}:</div>
+                    <div class="col-span-2">{{arr.drive_license.text}}</div>
+                </div>
+            </div>
+        </div>
+        <hr class="my-0 md:my-3 border-indigo-400 md:border-0">
+        <div class="px-5  print:pr-2 print:pl-0 ">
+            <div class="py-2 btn-collapse hover:bg-indigo-200" title="Collapse">
+                <h2 class="uppercase text-2xl font-semibold flex flex-row items-center cursor-pointer">
+                    <span>{{arr.skills.label}}</span>
+                    <span class="arrow ml-auto h-5 w-5 shrink-0 rotate-180 fill-black transition-transform duration-200 ease-in-out motion-reduce:transition-none print:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="h-6 w-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </span>
+                </h2>
+                <hr class="mt-4 border-e border-indigo-400 w-12">
+            </div>
+            <div class="pb-5 pt-3 print:pt-0 tocollapse text-base">
+                <div class="mb-6">
+                    {% for group in arr.skills.text %}
+                    <div class="font-semibold uppercase">{{group.label}}:</div>
+                    <div class="mx-4 mb-8">
+                        {% for list in group.arr %}
+                        <div class="mb-6 break-after-auto break-inside-avoid">
+                            <div class="my-1">{{list.label}}</div>
+                            <div class="relative">
+                                <div class="rounded-full w-full h-2 bg-slate-200 absolute top-0 border-4 border-slate-200 box-border"></div>
+                                <div class='rounded-{% if list.level!="12" %}l-{%endif%}full w-{% if list.level=="12" %}full{%else%}{{list.level}}/12{%endif%} h-2 bg-indigo-400 absolute top-0 border-4 border-indigo-400 box-border'></div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <hr class="my-0 md:my-3 border-indigo-400 md:border-0">
+        <div class="px-5  print:pr-2 print:pl-0 ">
+            <div class=" py-2 btn-collapse hover:bg-indigo-200" title="Collapse">
+                <h2 class="uppercase text-2xl font-semibold flex flex-row items-center cursor-pointer ">
+                    <span>{{arr.languages.label}}</span>
+                    <span class="arrow ml-auto h-5 w-5 shrink-0 rotate-180 fill-black transition-transform duration-200 ease-in-out motion-reduce:transition-none print:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="h-6 w-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </span>
+                </h2>
+                <hr class="mt-4 border-e border-indigo-400 w-12">
+            </div>
+            <div class="pb-5 tocollapse text-base">
+                <div class="mb-6">
+                    {% for list in arr.languages.text %}
+                    <div class="mb-6 mx-4">
+                        <div class="my-1">{{list.label}}</div>
+                        <div class="relative break-after-auto break-inside-avoid">
+                            <div class="rounded-full w-full h-2 bg-slate-200 absolute top-0 border-4 border-slate-200 box-border"></div>
+                            <div class='rounded-{% if list.level!="12" %}l-{%endif%}full w-{% if list.level=="12" %}full{%else%}{{list.level}}/12{%endif%} h-2 bg-indigo-400 absolute top-0 border-4 border-indigo-400 box-border'> </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </aside>
+    <div class="w-full sm:col-span-2 print:w-2/3 py-5 px-6 print:pr-0 box-border print:float-right">
+        <article>
+            <h2 class="uppercase text-3xl font-semibold flex flex-row justify-between">
+                <span>
+                    {{arr.profile.label}}
+                </span>
+                <a class="text-sm text-slate-600 print:hidden" download="true" href="{{arr.pdf_url}}" title="{{arr.pdf}}">
+                    {{arr.pdf}}
+                </a>
+            </h2>
+            <hr class="my-4 border-e border-indigo-400 w-12">
+            <div class="my-4">
+                {{arr.profile.text}}
+            </div>
+        </article>
+        <hr class="my-6 border-0">
+        <section class="break-after-all">
+            <h2 class="uppercase text-3xl font-semibold">{{arr.employment}}</h2>
+            <hr class="my-4 border-e border-indigo-400 w-12">
+    
+            {% for job in arr.employment_arr %}
+            <article>
+                <h3 class="font-semibold text-xl">{{job.title}}, {{job.firm}}</h3>
+                <p class="text-l text-slate-700 my-2">{{job.period}}</p>
+                <div class="my-4">
+                    {{job.text}}
+                </div>
+            </article>
+            {% endfor %}
+        </section>
+        <hr class="my-6 border-0">
+        <article class="break-before-all break-inside-avoid-page">
+            <h2 class="uppercase text-3xl font-semibold">{{arr.education.label}}</h2>
+            <hr class="my-4 border-e border-indigo-400 w-12">
+            {% for ed in arr.education.arr %}
+            <div class="my-4">
+                <p class="mb-2 font-semibold">
+                    {{ed.title}},
+                </p>
+                <p class="mb-2 text-justify">
+                    {{ed.place}}
+                </p>
+                <p class="text-l text-slate-700 my-2">
+                    {{ed.period}}
+                </p>
+            </div>
+            {% endfor %}
+        </article>
+        <hr class="my-6 border-0">
+        <article>
+            <h2 class="uppercase text-3xl font-semibold">{{arr.courses.label}}</h2>
+            <hr class="my-4 border-e border-indigo-400 w-12">
+            {% for ed in arr.courses.arr %}
+            <div class="my-4">
+                <p class="mb-2 font-semibold">
+                    {{ed.title}}, {{ed.place}}
+                </p>
+                <p class="text-l text-slate-700 my-2">
+                    {{ed.period}}
+                </p>
+            </div>
+            {% endfor %}
+        </article>
+    </div>
+</div>
+
+<script>
+    document.querySelectorAll('.btn-collapse').forEach(function (element) {
+        element.addEventListener('click', function (event) {
+            let btn = event.currentTarget;
+            toggleelements(btn);
+        });
+    });
+    let width = window.innerWidth;
+    if (width < 640) {
+        document.querySelectorAll('.btn-collapse').forEach(function (element) {
+            toggleelements(element);
+        });
+    }
+    
+    document.querySelector('#print_pdf').addEventListener('click', function(event) {
+        window.print();
+    });
+
+    
+
+    function toggleelements(btn) {
+        let hr = btn.querySelector('hr');
+        let div = btn.parentElement.querySelector('.tocollapse');
+        let arrow = btn.querySelector('.arrow');
+        let list = arrow.className;
+        console.log(arrow);
+        div.classList.toggle('hidden');
+        btn.classList.toggle('bg-indigo-200');
+        hr.classList.toggle('hidden');
+        if (list.indexOf('rotate-180') !== -1) {
+            arrow.classList.add('rotate-0');
+            arrow.classList.remove('rotate-180');
+        } else if (list.indexOf('rotate-0') !== -1) {
+            arrow.classList.remove('rotate-0');
+            arrow.classList.add('rotate-180');
+        }
+    }
+</script>

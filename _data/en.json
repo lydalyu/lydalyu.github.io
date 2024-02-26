@@ -1,0 +1,218 @@
+{
+    "data" : {
+        "pdf": "Download in PDF",
+        "pdf_url" : "/assets/pdf/CV_Liudmyla_Chernyk.pdf",
+        "details": "Details",
+        "address": "Address",
+        "country": "Germany",
+        "city": "Meissen",
+        "mail": {
+            "label" : "Email",
+            "text" : "lchernik@gmail.com"
+        },
+        "drive_license" : {
+            "label" : "Driving license",
+            "text" : "Cat B"
+        },
+        "skills": {
+            "label" : "Skills",
+            "max-level" : "12", 
+            "_comment" : "max-level not used, it is here just to relate skills level",
+            "text" : [
+                {
+                    "label" : "Programming & Markup languages",
+                    "arr" : [
+                        {
+                            "label" : "PHP",
+                            "level" : "11"
+                        },
+                        {
+                            "label": "Python",
+                            "level": "8"
+                        },
+                        {
+                            "label": "SQL",
+                            "level": "11"
+                        },
+                        {
+                            "label": "JavaScript",
+                            "level": "11"
+                        },
+                        {
+                            "label": "HTML",
+                            "level": "12"
+                        },
+                        {
+                            "label": "MD",
+                            "level": "9"
+                        },
+                        {
+                            "label": "CSS",
+                            "level": "12"
+                        }
+                    ]
+                },
+                {
+                    "label": "Frameworks",
+                    "arr": [
+                        {
+                            "label": "Laravel",
+                            "level": "11"
+                        },
+                        {
+                            "label": "Symphony",
+                            "level": "8"
+                        },
+                        {
+                            "label": "Django",
+                            "level": "9"
+                        },
+                        {
+                            "label": "jQuery",
+                            "level": "11"
+                        },
+                        {
+                            "label": "Vue.js",
+                            "level": "10"
+                        },
+                        {
+                            "label": "Angular",
+                            "level": "7"
+                        },
+                        {
+                            "label": "Bootstrap",
+                            "level": "11"
+                        },
+                        {
+                            "label": "Tailwind",
+                            "level": "10"
+                        }
+                    ]
+                },
+                {
+                    "label": "Management systems",
+                    "arr": [
+                        {
+                            "label": "Magento 2",
+                            "level": "9"
+                        },
+                        {
+                            "label": "Dolibarr",
+                            "level": "8"
+                        },
+                        {
+                            "label": "WordPress",
+                            "level": "10"
+                        }
+                    ]
+                },
+                {
+                    "label": "Other skills",
+                    "arr": [
+                        {
+                            "label": "Git",
+                            "level": "10"
+                        },
+                        {
+                            "label": "Regular Expressions",
+                            "level": "12"
+                        },
+                        {
+                            "label": "ORM",
+                            "level": "12"
+                        },
+                        {
+                            "label": "OOP",
+                            "level": "11"
+                        },
+                        {
+                            "label": "APIs",
+                            "level": "10"
+                        },
+                        {
+                            "label": "JSON",
+                            "level": "12"
+                        },
+                        {
+                            "label": "XML",
+                            "level": "12"
+                        }
+                    ]
+                }
+            ]
+        },
+        "languages" : {
+            "label" : "Languages",
+            "max-level": "12",
+            "_comment": "max-level not used, it is here just to relate skills level",
+            "text" : [
+                {
+                    "label" : "English",
+                    "level" : "7"
+                },
+                {
+                    "label": "German",
+                    "level": "6"
+                },
+                {
+                    "label": "Ukrainian",
+                    "level": "12"
+                },
+                {
+                    "label": "Russian",
+                    "level": "12"
+                }
+            ]
+        },
+        "profile": {
+            "label" : "Profile",
+            "text" : "<p class='mb-2 text-justify'> As a passionate full-stack web developer, I specialize in creating portals and modules using PHP, Python and JavaScript frameworks, as well as HTML5 and CSS. My experience includes creating new websites and portals, developing modules, parsing HTML pages, creating and improving WordPress themes. </p> <p class='mb-2 text-justify'>  A continuous learner, I actively explore emerging technologies during my work. I aim to make websites that look great and work smoothly by considering all aspects together. </p> <p class='mb-2 text-justify'> In addition, I am proficient in regular expressions for efficient data manipulation and have good skills in interacting with SQL, both directly and through ORM models, to ensure robust database functionality. Passionate about customer satisfaction, I collaborate with cross-functional teams to deliver successful projects. </p>"
+        }, 
+        "employment" : "Employment history",
+        "employment_arr" : [
+            {
+                "title": "Middle PHP-, JavaScript Programmer",
+                "firm": "«AWAG IT Lösungen»",
+                "period": "May 2022 — Today",
+                "text": "<p class='mb-2 text-justify'>As a PHP and JavaScript Programmer at AWAG IT Lösungen, I specialized in Magento 2 module development and customization, enhancing the platform's functionality. In web application development, I utilized technologies such as Laravel, Symphony, HTML5, CSS, SCSS, SASS, Bootstrap, Blade, Twig, Pure JS, Vue.js, and jQuery. This expertise allowed me to contribute to diverse projects, collaborating with cross-functional teams for successful project delivery. Additionally, I adeptly tailored the Google Tag Manager for seamless data transmission to Google Analytics 4, ensuring precise analytics integration.</p>"
+            },
+            {
+                "title": "Operations Manager and ERP Integrator",
+                "firm": "«Kainozoe» LLC",
+                "period": "January 2017 — April 2022",
+                "text": "<p class='mb-2 text-justify'>At Kainozoe, I managed goods, processed online orders, and provided phone customer support. Handling supplier orders, I orchestrated the integration of an existing ERP system, seamlessly weaving it into all aspects of the company's business processes for efficient work. Focused on specific tasks, I developed targeted Python scripts to seamlessly add new products and synchronize availability and photos from supplier XML feeds. This scripting enhancement contributed to the precision and automation of our workflow.</p>"
+            },
+            {
+                "title": "Junior SEO-webtools Developer",
+                "firm": "SEO Studio «Domen PR»",
+                "period": "July 2016 — February 2017",
+                "text": "<p class='mb-2 text-justify'>As a Junior SEO-webtools Developer at SEO Studio Domen PR, I specialized in web development and SEO. Collaborating with a team, I crafted and maintained web tools for SEO, focusing on parsing HTML pages using regular expressions. I also contributed to the creation and modification of WordPress themes, importing parsed data into WordPress. Additionally, I played a crucial role in enhancing the HTML page parser for improved efficiency.</p>"
+            }
+        ],
+        "education" : {
+            "label" : "Education",
+            "arr" : [
+                {
+                    "title" : "Barchelor in Telecommunication systems",
+                    "place" : "Educational and Research Institute of Telecommunication Systems in National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”",
+                    "period" : "September 2002 — June 2006"
+                }
+            ]
+        },
+        "courses": {
+            "label": "Courses",
+            "arr": [
+                {
+                    "title": "Web Programming with Python and JavaScript",
+                    "place": "Harvard (edx platform)",
+                    "period": "October 2023 — December 2023"
+                },
+                {
+                    "title": "Introduction to Computer Science",
+                    "place": "Harvard (Prometeus platform)",
+                    "period": "February 2019 — June 2019"
+                }
+            ]
+        }
+    }
+}
