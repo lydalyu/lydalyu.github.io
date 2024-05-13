@@ -62,7 +62,7 @@
             </div>
         </div>
         <hr class="my-0 md:my-3 border-indigo-400 md:border-0">
-        <div class="px-5  print:pr-2 print:pl-0 ">
+        <div class="px-5  print:pr-2 print:pl-0 print:mt-6">
             <div class=" py-2 btn-collapse hover:bg-indigo-200" title="Collapse">
                 <h2 class="uppercase text-2xl font-semibold flex flex-row items-center cursor-pointer ">
                     <span>{{arr.languages.label}}</span>
@@ -108,13 +108,13 @@
         <hr class="my-6 border-0 print:hidden">
         <section class="break-after-all">
             <h2 class="uppercase text-3xl print:text-2xl font-semibold">{{arr.employment}}</h2>
-            <hr class="my-4 border-e border-indigo-400 w-12">
+            <hr class="my-4 print:my-2 border-e border-indigo-400 w-12">
     
             {% for job in arr.employment_arr %}
             <article>
                 <h3 class="font-semibold text-xl">{{job.title}}, {{job.firm}}</h3>
                 <p class="text-l text-slate-700 my-2">{{job.period}}</p>
-                <div class="my-4">
+                <div class="my-4 print:my-3">
                     {{job.text}}
                 </div>
             </article>
