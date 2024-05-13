@@ -10,12 +10,12 @@ ul.dash-list {
 }
 
 ul.dash-list li {
-    text-indent: 1rem;
+    text-indent: .5rem;
 }
 
 ul.dash-list li::before {
     content: '—';
-    color: black;
+    margin-right: .5rem;
 }
 
 @media screen and (max-width:639px) {
