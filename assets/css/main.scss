@@ -5,6 +5,15 @@
 
 @import "typography";
 
+ul.dash-list {
+    list-style-type: none;
+}
+
+ul.dash-list li::before {
+    text-indent: .5em;
+    content: '—';
+}
+
 @media screen and (max-width:639px) {
     .language {
         margin-top: -1.3rem;

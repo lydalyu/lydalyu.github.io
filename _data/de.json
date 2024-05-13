@@ -5,7 +5,7 @@
         "details" : "Zur Person",
         "address" : "Adresse",
         "country": "Deutschland",
-        "city": "Meißen",
+        "city": "Dresden",
         "mail": {
             "label": "E-Mail",
             "text": "chernykliudmyla@gmail.com"
@@ -172,26 +172,56 @@
                 "title": "Middle PHP-, JavaScript Programmiererin",
                 "firm": "«AWAG IT Lösungen»",
                 "period": "Mai 2022 — Heute",
-                "text": "<p class='mb-2 text-justify'>Als PHP- und JavaScript-Programmiererin bei AWAG IT Lösungen habe ich mich auf die Entwicklung und Anpassung von Magento 2-Modulen spezialisiert, um die Funktionalität der Plattform zu verbessern. In der Entwicklung von Webanwendungen habe ich Technologien wie Laravel, Symphony, HTML5, CSS, SCSS, SASS, Bootstrap, Blade, Twig, Pure JS, Vue.js und jQuery eingesetzt. Dank meiner Erfahrung konnte ich bei vielen Projekten helfen, indem ich mit Teams aus verschiedenen Fachbereichen zusammengearbeitet habe, um sicherzustellen, dass die Projekte erfolgreich umgesetzt werden. Außerdem habe ich den Google Tag Manager so angepasst, dass Daten reibungslos an Google Analytics 4 übertragen werden und die Analyse genau integriert ist.</p>"
+                "text": "<section class='mt-6'><h4>Meine Aufgaben:</h4><ul class='dash-list'><li>Entwicklung von Webanwendungen mit Laravel, Symfony, Vue.js, jQuery, Angular, Bootstrap, Tailwind usw.</li><li>Entwicklung und Anpassung von Modulen für Magento2, Dolibarr, Wordpress zur Anpassung und Verbesserung der Plattformfunktionalität.</li></ul><h4>Erworbene Fähigkeiten:</h4><ul class='dash-list'><li>Verbesserte Fähigkeit zur selbstständigen Arbeit und Organisation meiner persönlichen Zeit, um Aufgaben effizient zu erledigen.</li><li>Verbesserte Fähigkeit, die beste Lösung zur Erreichung gesetzter Ziele zu finden.</li><li>Verbesserte Fähigkeit zur pünktlichen Erledigung zugewiesener Aufgaben.</li><li>Arbeit im Team mit regelmäßigem Informationsaustausch für die optimale Aufgabenverteilung.</li><li>Aufbau der kundenspezifischen Struktur und Funktionalität der Anwendung.</li><li>Selbstständige Prüfung abgeschlossener Aufgaben.</li><li>Überprüfung und Code-Review des von anderen Mitarbeitern geschriebenen Codes.</li></ul></section>"
             },
             {
                 "title": "Betriebsleiter und ERP-Integrator",
                 "firm": "«Kainozoe» LLC",
                 "period": "Januar 2017 — April 2022",
-                "text": "<p class='mb-2 text-justify'>Bei Kainozoe habe ich den Lagerbestand verwaltet, Online- Bestellungen bearbeitet und telefonischen Kundensupport angeboten. Ich habe die Integration eines vorhandenen ERP- Systems geleitet, um es durchgehend in alle Aspekte der Geschäftsprozesse des Unternehmens zu integrieren und effizientes Arbeiten zu ermöglichen. Mit Fokus auf spezifische Aufgaben entwickelte ich gezielte Python- Skripte, um neue Produkte hinzuzufügen und die Verfügbarkeit sowie Fotos aus den XML-Feeds der Lieferanten zu synchronisieren. Diese Verbesserung durch Skripterstellung trug zur Präzision und Automatisierung unserer Arbeitsabläufe bei.</p>"
+                "text": "<section class='mt-6'><h4>Meine Aufgaben:</h4><ul class='dash-list'><li>Bearbeitung von Kundenbestellungen und Führung der primären Buchhaltung.</li><li>Einrichtung der Automatisierung für die Auftragsabwicklung.</li><li>Lagerbuchhaltung.</li><li>Einrichtung des Kundenportals.</li><li>Implementierung der Automatisierung für das Hinzufügen neuer Produkte zum Buchhaltungssystem unter Verwendung der integrierten Funktionen des Systems und der Entwicklung zusätzlicher Python-Skripte.</li></ul><h4>Erworbene Fähigkeiten:</h4><ul class='dash-list'><li>Arbeiten mit CRM- und ERP-Systemen, Einrichtung und Automatisierung von Prozessen.</li><li>Grundlegende Buchhaltungsverfahren.</li><li>Verbesserte Fähigkeit zur selbstständigen Arbeit und Organisation meiner persönlichen Zeit, um Aufgaben effizient abzuschließen.</li><li>Verbesserte Kenntnisse in HTML, CSS und JavaScript während der Einrichtung des Kundenportals.</li><li>Die eigenständige Erforschung der Programmiersprache Python ermöglichte mir, Skripte zu entwickeln, die die Automatisierungsfähigkeiten von Prozessen verbessern.</li><li>Erwarb die Fähigkeit, mit REST-APIs zu interagieren, während Python-Skripte geschrieben wurden, um Produkte dem Buchhaltungssystem hinzuzufügen und die Produktverfügbarkeit mit Lieferanten zu synchronisieren.</li></ul></section>"
             },
             {
                 "title": "Junior SEO-webtools Entwicklerin",
                 "firm": "SEO Studio «Domen PR»",
-                "period": "July 2016 — February 2017",
-                "text": "<p class='mb-2 text-justify'>Bei SEO Studio Domen PR als Junior SEO-Webtools Developer habe ich mich auf Webentwicklung und SEO spezialisiert. In Zusammenarbeit mit einem Team habe ich Webtools für SEO entwickelt und gepflegt, wobei der Fokus auf dem Parsen von HTML-Seiten mithilfe regulärer Ausdrücke lag.Ich habe auch teilgenommen an der Erstellung und Anpassung von WordPress-Themes und importierte geparste Daten in WordPress. Außerdem habe ich an der Verbesserung des HTML-Seitenparsers teilgenommen.</p>"
+                "period": "Juli 2016 — Februar 2017",
+                "text": "<section class='mt-6'><h4>Meine Aufgaben:</h4><ul class='dash-list'><li>Content-SEO-Optimierung..</li><li>Entwicklung und Anpassung von WordPress-Themen.</li><li>Datenanalyse.</li></ul><h4>Erworbene Fähigkeiten:</h4><ul class='dash-list'><li>Verbesserte Organisation meiner persönlichen Zeit, um Aufgaben effizienter zu erledigen.</li><li>Verbesserte Fähigkeit, die beste Lösung zur Erreichung gesetzter Ziele zu finden.</li><li>Beherrschung der Verwendung von regulären Ausdrücken zur effektiven Automatisierung der Datenanalyse.</li><li>Anwendung von HTML- und CSS-Kenntnissen bei der Entwicklung von WordPress-Themen.</li><li>Erlernen der Programmiersprache PHP, um WordPress-Themen unabhängig zu entwickeln und anzupassen.</li><li>Arbeiten mit den SQL-Datenbanken zur Migration von Websites zu WordPress aus anderen Content-Management-Systemen.</li><li>Anpassung von Texten, die von Copywritern für SEO-Promotionszwecke verfasst wurden.</li></ul></section>"
+            },
+            {
+                "title": "Verkäuferin",
+                "firm": "Turkul.net",
+                "period": "September 2012 - November 2016 ",
+                "text": "<section class='mt-6'><h4>Meine Aufgaben:</h4><ul class='dash-list'><li>Neue Produkte auf der Website des Geschäfts hinzufügen und individuelle sowie umfassende Beschreibungen für sie verfassen.</li><li>Kurze Artikel über das sportliche und Outdoor-Leben der Mitarbeiter für den Unternehmensblog verfassen, um den Laden online zu bewerben.</li><li>Aktive Teilnahme am Design und der Optimierung der Geschäftswebsite.</li><li>Kundenberatung für den Kauf von Outdoor-Ausrüstung und Bekleidung.</li><li>Bearbeitung von Online-Bestellungen.</li><li>Bestellungen bei Lieferanten aufgeben.</li><li>Abgleich der Buchhaltung mit den Lieferanten.</li></ul><h4>Erworbene Fähigkeiten:</h4><ul class='dash-list'><li>Fähigkeit zur effektiven Kommunikation mit Kunden sowohl persönlich als auch telefonisch oder per E-Mail.</li><li>Auswahl von Ausrüstung, die den individuellen Bedürfnissen der Kunden entspricht, aus dem vorhandenen Sortiment.</li><li>Fähigkeit, unter Druck die optimale Lösung für Probleme zu finden.</li><li>Verbesserte Selbstständigkeit und effiziente Zeitorganisation zur erfolgreichen Erledigung von Aufgaben.</li><li>Arbeit mit Buchhaltungs- und Lagerverwaltungssystemen.</li><li>Vertrautheit mit Content-Management-Systemen.</li><li>Verfassen von prägnanten und informativen Texten sowie Artikeln zur Bewerbung von Produkten oder des Geschäfts.</li></ul></section>"
+            },
+            {
+                "title": "Online-Shop-Manager",
+                "firm": "Rozumniki.ua",
+                "period": "August 2011 - August 2012",
+                "text": "<section class='mt-6'><h4>Meine Aufgaben:</h4><ul class='dash-list'><li>Bearbeitung von Kundenbestellungen.</li><li>Teilnahme am Produktionsprozess von Schulunterrichtsmaterialien.</li><li>Aufgabe von Bestellungen bei Lieferanten.</li><li>Abgleich der Buchhaltung mit Lieferanten.</li></ul><h4>Erworbene Fähigkeiten:</h4><ul class='dash-list'><li>Fähigkeit zur Anpassung und Arbeit mit verschiedenen Buchhaltungs- und Content-Management-Systemen.</li><li>Zusammenarbeit mit anderen Abteilungen zur effektiven Erledigung zugewiesener Aufgaben.</li><li>Kommunikationsfähigkeit mit Kunden per Telefon oder E-Mail.</li><li>Entwicklung von Fähigkeiten im Umgang mit Lieferanten durch Aufgeben von Bestellungen und Buchhaltungsabgleich.</li></ul></section>"
+            },
+            {
+                "title": "Verkäuferin",
+                "firm": "El-cap.kiev.ua",
+                "period": "September 2009 - Juli 2011",
+                "text": "<section class='mt-6'><h4>Meine Aufgaben:</h4><ul class='dash-list'><li>Hinzufügen neuer Produkte zur Website des Geschäfts und Verfassen einer einzigartigen und umfassenden Beschreibung für sie.</li><li>Schreiben von kurzen Artikeln über das Sport- und Outdoorleben der Mitarbeiter für den Blog des Geschäfts, um den Laden online zu bewerben.</li><li>Beratung für Käufer von Outdoor-Ausrüstung und Kleidung.</li><li>Bearbeitung von Online-Bestellungen.</li><li>Aufgabe von Bestellungen bei Lieferanten.</li></ul><h4>Erworbene Fähigkeiten:</h4><ul class='dash-list'><li>Fähigkeit zur Kommunikation mit Kunden sowohl persönlich als auch telefonisch oder per E-Mail.</li><li>Auswahl von Ausrüstung, die den individuellen Bedürfnissen der Kunden aus dem vorhandenen Sortiment entspricht.</li><li>Finden der optimalen Lösung für ein Problem in einer Situation mit hohem Druck.</li><li>Bildung eines Teams zur Lösung eines gegebenen Problems.</li><li>Arbeiten mit Buchhaltungs- und Lagerverwaltungssystemen.</li><li>Arbeiten mit Content-Management-Systemen.</li><li>Verfassen von kurzen und umfassenden Texten und Artikeln zur Produkt- oder Ladenwerbung.</li></ul></section>"
+            },
+            {
+                "title": "Call-Center Angestellter",
+                "firm": "OJSC IVK",
+                "period": "Juni 2006 - April 2009",
+                "text": "<section class='mt-6'><h4>Meine Aufgaben:</h4><ul class='dash-list'><li>Kundenbetreuung für Nutzer von Kabelfernsehen und Kabelinternet.</li><li>Verkauf von Unternehmensdienstleistungen an neue und bestehende Kunden.</li></ul><h4>Erworbene Fähigkeiten:</h4><ul class='dash-list'><li>Kommunikation mit Kunden per Telefon.</li><li>Stressresistenz.</li><li>Finden der Lösung für ein Problem in einer Situation mit hohem Druck, oft mit begrenzten Informationen.</li><li>Fähigkeit zur Zusammenarbeit mit anderen technischen Abteilungen zur Lösung von Kundenanfragen und -problemen.</li><li>Fähigkeit, äußere Ablenkungen auszublenden und in lauten Umgebungen auf die Arbeit zu konzentrieren.</li></ul></section>"
+            },
+            {
+                "title": "Laborassistentin",
+                "firm": "National Technical University of Ukraine 'Kyiv Polytechnic Institute",
+                "period": "November 2002 - Mai 2004",
+                "text": "<section class='mt-6'><h4>Meine Aufgaben:</h4><ul class='dash-list'><li>Übertragung von handgeschriebenen Texten auf den Computer zur Erstellung von Lehrmaterialien für die Universität.</li></ul><h4>Erworbene Fähigkeiten:</h4><ul class='dash-list'><li>Gestaltung von Layouts für technische Lehrmaterialien zur Druckvorbereitung.</li><li>Die Umwandlung von Skizzen in vektorbasierte Bilder in MS Word, um eine hochwertige Druckausgabe in verschiedenen Maßstäben zu gewährleisten.</li><li>Effizientes Zeitmanagement zur erfolgreichen Bewältigung von Aufgaben und ohne Beeinträchtigung des Studiums.</li><li>Pünktliche und verantwortungsbewusste Erfüllung zugewiesener Aufgaben.</li></ul></section>"
             }
         ],
         "education": {
             "label": "Ausbildung",
             "arr": [
                 {
-                    "title": "Bachelor in Telekommunikationssystemen",
+                    "title": "Bachelor in elektronischer Ausrüstung",
                     "place": "Educational and Research Institute of Telecommunication Systems in National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”",
                     "period": "September 2002 — Juni 2006"
                 }
