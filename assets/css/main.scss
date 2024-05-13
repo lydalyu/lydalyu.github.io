@@ -9,9 +9,13 @@ ul.dash-list {
     list-style-type: none;
 }
 
+ul.dash-list li {
+    text-indent: 1rem;
+}
+
 ul.dash-list li::before {
-    text-indent: .5em;
     content: '—';
+    color: black;
 }
 
 @media screen and (max-width:639px) {
