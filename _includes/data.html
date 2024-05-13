@@ -2,7 +2,7 @@
     <aside class="border-e border-indigo-400 py-2 box-border w-full col-span-1 print:w-1/3 print:float-left">
         <div class="left px-5 print:pr-2 print:pl-0 ">
             <div class="py-2 btn-collapse hover:bg-indigo-200" title="Collapse">
-                <h2 class="uppercase text-2xl font-semibold flex flex-row items-center cursor-pointer">
+                <h2 class="uppercase text-2xl print:text-xl font-semibold flex flex-row items-center cursor-pointer">
                     <span>{{arr.details}}</span>
                     <span class="arrow ml-auto h-5 w-5 shrink-0 rotate-180 fill-black transition-transform duration-200 ease-in-out motion-reduce:transition-none print:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -31,7 +31,7 @@
         <hr class="my-0 md:my-3 border-indigo-400 md:border-0">
         <div class="px-5  print:pr-2 print:pl-0 ">
             <div class="py-2 btn-collapse hover:bg-indigo-200" title="Collapse">
-                <h2 class="uppercase text-2xl font-semibold flex flex-row items-center cursor-pointer">
+                <h2 class="uppercase text-2xl print:text-xl font-semibold flex flex-row items-center cursor-pointer">
                     <span>{{arr.skills.label}}</span>
                     <span class="arrow ml-auto h-5 w-5 shrink-0 rotate-180 fill-black transition-transform duration-200 ease-in-out motion-reduce:transition-none print:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -91,7 +91,7 @@
         </div>
     </aside>
     <div class="w-full sm:col-span-2 print:w-2/3 py-5 px-6 print:pr-0 box-border print:float-right">
-        <article>
+        <article class="print:hidden">
             <h2 class="uppercase text-3xl font-semibold flex flex-row justify-between">
                 <span>
                     {{arr.profile.label}}
@@ -105,9 +105,9 @@
                 {{arr.profile.text}}
             </div>
         </article>
-        <hr class="my-6 border-0">
+        <hr class="my-6 border-0 print:hidden">
         <section class="break-after-all">
-            <h2 class="uppercase text-3xl font-semibold">{{arr.employment}}</h2>
+            <h2 class="uppercase text-3xl print:text-2xl font-semibold">{{arr.employment}}</h2>
             <hr class="my-4 border-e border-indigo-400 w-12">
     
             {% for job in arr.employment_arr %}
@@ -120,9 +120,9 @@
             </article>
             {% endfor %}
         </section>
-        <hr class="my-6 border-0">
+        <hr class="my-6 print:my-4 border-0">
         <article class="break-before-all break-inside-avoid-page">
-            <h2 class="uppercase text-3xl font-semibold">{{arr.education.label}}</h2>
+            <h2 class="uppercase text-3xl print:text-2xl font-semibold">{{arr.education.label}}</h2>
             <hr class="my-4 border-e border-indigo-400 w-12">
             {% for ed in arr.education.arr %}
             <div class="my-4">
@@ -138,9 +138,9 @@
             </div>
             {% endfor %}
         </article>
-        <hr class="my-6 border-0">
+        <hr class="my-6 print:my-4 border-0">
         <article>
-            <h2 class="uppercase text-3xl font-semibold">{{arr.courses.label}}</h2>
+            <h2 class="uppercase text-3xl print:text-2xl font-semibold">{{arr.courses.label}}</h2>
             <hr class="my-4 border-e border-indigo-400 w-12">
             {% for ed in arr.courses.arr %}
             <div class="my-4">
