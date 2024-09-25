@@ -18,9 +18,11 @@
             document.addEventListener("scroll", () => {
                 let header = document.querySelector("header");
                 if (header && header.offsetTop > 0) {
-                    header.classList.add("scrolled");
+                    header.classList.add("shadow");
+                    header.classList.add("shadow-indigo-600");
                 } else if (header) {
-                    header.classList.remove("scrolled");
+                    header.classList.remove("shadow");
+                    header.classList.remove("shadow-indigo-600");
                 }
             });
         </script> 
