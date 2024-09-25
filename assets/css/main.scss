@@ -18,6 +18,10 @@ ul.dash-list li::before {
     margin-right: .5rem;
 }
 
+header.scrolled {
+    @apply shadow shadow-indigo-600;
+}
+
 @media screen and (max-width:639px) {
     .language {
         margin-top: -1.3rem;
