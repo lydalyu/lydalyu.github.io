@@ -98,11 +98,11 @@
                         },
                         {
                             "label": "Dolibarr",
-                            "level": "8"
+                            "level": "10"
                         },
                         {
                             "label": "WordPress",
-                            "level": "10"
+                            "level": "8"
                         }
                     ]
                 },
@@ -152,7 +152,7 @@
                 },
                 {
                     "label": "German",
-                    "level": "6"
+                    "level": "7"
                 },
                 {
                     "label": "Ukrainian",

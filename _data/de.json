@@ -96,11 +96,11 @@
                         },
                         {
                             "label": "Dolibarr",
-                            "level": "8"
+                            "level": "10"
                         },
                         {
                             "label": "WordPress",
-                            "level": "10"
+                            "level": "8"
                         }
                     ]
                 },
@@ -150,7 +150,7 @@
                 },
                 {
                     "label": "Deutsch",
-                    "level": "6"
+                    "level": "7"
                 },
                 {
                     "label": "Ukrainisch",
@@ -184,7 +184,7 @@
                 "title": "Junior SEO-webtools Entwicklerin",
                 "firm": "SEO Studio «Domen PR»",
                 "period": "Juli 2016 — Februar 2017",
-                "text": "<section><h4 class='font-medium'>Meine Aufgaben:</h4><ul class='dash-list'><li>Content-SEO-Optimierung..</li><li>Entwicklung und Anpassung von WordPress-Themen.</li><li>Datenanalyse.</li></ul><h4 class='mt-3 font-medium'>Erworbene Fähigkeiten:</h4><ul class='dash-list'><li>Verbesserte Organisation meiner persönlichen Zeit, um Aufgaben effizienter zu erledigen.</li><li>Verbesserte Fähigkeit, die beste Lösung zur Erreichung gesetzter Ziele zu finden.</li><li>Beherrschung der Verwendung von regulären Ausdrücken zur effektiven Automatisierung der Datenanalyse.</li><li>Anwendung von HTML- und CSS-Kenntnissen bei der Entwicklung von WordPress-Themen.</li><li>Erlernen der Programmiersprache PHP, um WordPress-Themen unabhängig zu entwickeln und anzupassen.</li><li>Arbeiten mit den SQL-Datenbanken zur Migration von Websites zu WordPress aus anderen Content-Management-Systemen.</li><li>Anpassung von Texten, die von Copywritern für SEO-Promotionszwecke verfasst wurden.</li></ul></section>"
+                "text": "<section><h4 class='font-medium'>Meine Aufgaben:</h4><ul class='dash-list'><li>Content-SEO-Optimierung.</li><li>Entwicklung und Anpassung von WordPress-Themen.</li><li>Datenanalyse.</li></ul><h4 class='mt-3 font-medium'>Erworbene Fähigkeiten:</h4><ul class='dash-list'><li>Verbesserte Organisation meiner persönlichen Zeit, um Aufgaben effizienter zu erledigen.</li><li>Verbesserte Fähigkeit, die beste Lösung zur Erreichung gesetzter Ziele zu finden.</li><li>Beherrschung der Verwendung von regulären Ausdrücken zur effektiven Automatisierung der Datenanalyse.</li><li>Anwendung von HTML- und CSS-Kenntnissen bei der Entwicklung von WordPress-Themen.</li><li>Erlernen der Programmiersprache PHP, um WordPress-Themen unabhängig zu entwickeln und anzupassen.</li><li>Arbeiten mit den SQL-Datenbanken zur Migration von Websites zu WordPress aus anderen Content-Management-Systemen.</li><li>Anpassung von Texten, die von Copywritern für SEO-Promotionszwecke verfasst wurden.</li></ul></section>"
             },
             {
                 "title": "Verkäuferin",
