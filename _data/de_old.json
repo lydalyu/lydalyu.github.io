@@ -2,6 +2,24 @@
     "data": {
         "pdf" : "Als PDF herunterladen",
         "pdf_url": "/assets/pdf/Lebenslauf_Liudmyla_Chernyk.pdf",
+        "profileData": [
+            {
+                "label": "Adresse",
+                "text": "Dresden, Deutschland"
+            },
+            {
+                "label": "E-Mail",
+                "text": "chernykliudmyla@gmail.com"
+            },
+            {
+                "label": "Familienstand",
+                "text": "Verheiratet"
+            },
+            {
+                "label": "Führerschein",
+                "text": "Klasse B"
+            }
+        ],
         "details" : "Zur Person",
         "address" : "Adresse",
         "country": "Deutschland",

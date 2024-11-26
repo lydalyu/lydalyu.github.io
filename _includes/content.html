@@ -1,0 +1,133 @@
+<div id="front" class="content box-content print:block print:px-0 print:mx-0">
+    <div id="name" class=" bg-no-repeat bg-cover bg-blend-luminosity pt-3 print:pt-0 print:pb-2 sticky top-0 z-10 px-7 print:px-0 relative">
+        <div class=" flex flex-row justify-between py-2 print:flex-wrap">
+            <div class="flex flex-row name grow ">
+                <a class="flex flex-col pb-5 print:pt-1 print:px-1 justify-between" href="/">
+                    <h1 class="text-3xl md:text-5xl font-semibold text-indigo-800 text-shadow">Liudmyla Chernyk</h1>
+                    <span class="text-lg md:text-xl mt-2 text-shadow">Full-stack Web-Developer</span>
+                </a>
+            </div>
+            <div class="flex flex-row">
+                <div class="grid grid-cols-3 gap-x-2">
+                {% for row in arr.profileData %}
+                    <div class=" col-span-1 font-medium uppercase">{{row.label}}:</div>
+                    <div class=" col-span-2">{{row.text}}</div>
+                {% endfor %}
+                </div>
+                <div class="flex flex-col gap-1 justify-center items-center print:hidden">
+                    <a class="text-center rounded mr-2 py-1 px-3 flex flex-row min-w-max {% if page.url == '/de.html' %} hidden {% else %} cursor-pointer radial-trans {% endif %}" href=" /de.html" title="DE">
+                        <img width="40" class=" inline" src="{{ '/assets/images/de_DE.svg' | relative_url }}">
+                    </a>
+                    <a class="text-center rounded py-1 px-3 flex flex-row min-w-max cursor-pointer {% if page.url == '/' %} hidden {% else %} cursor-pointer radial-trans {% endif %}" href="/" title="EN">
+                        <img width="40" class=" inline" src="{{ '/assets/images/en_GB.svg' | relative_url }}">
+                    </a>
+                    <div id="print_pdf" class="text-center px-3 py-2 rounded radial-trans text-indigo-800 text-center cursor-pointer text-indigo-800" title="Print">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-printer"
+                            viewBox="0 0 16 16">
+                            <path d="M2.5 8a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1" />
+                            <path
+                                d="M5 1a2 2 0 0 0-2 2v2H2a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h1v1a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-1h1a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-1V3a2 2 0 0 0-2-2zM4 3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2H4zm1 5a2 2 0 0 0-2 2v1H2a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v-1a2 2 0 0 0-2-2zm7 2v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="absolute w-1/12 end-0 top-0 h-full -z-10 opacity-50 print:hidden"><div class=" half-trans {% if page.url == '/de.html' %} de {% else %} gb {% endif %}"></div></div>
+    </div>
+    <div class="pt-5 bg-white px-7 print:px-0">
+        <div class="print:mt-3 datablock">
+            <h2 class="uppercase font-semibold my-2 text-xl text-indigo-800">{{arr.skills.label}}</h2>
+            {% for group in arr.skills.text %}
+            <div class="grid grid-cols-2 md:grid-cols-5 print:grid-cols-5 mt-6">
+                <div class="font-semibold uppercase col-span-1">{{group.label}}:</div>
+                <article class="mt-2 col-span-1 md:col-span-4 print:col-span-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  print:grid-cols-3 gap-x-8 gap-y-2 pb-4">
+                    {% for row in group.arr %}
+                    <div class="flex flex-col col-span-1">
+                        <div class="h-8">
+                            <div class="relative break-after-auto break-inside-avoid">
+                                <div class="rounded-lg w-full h-2 bg-slate-200 absolute top-0 border-4 border-slate-200 box-border h-8">
+                                </div>
+                                <div
+                                    class='rounded-{% if row.level!="12" %}l-{%endif%}lg w-{% if row.level=="12" %}full{%else%}{{row.level}}/12{%endif%} h-2 bg-indigo-800 absolute top-0 border-4 border-indigo-800 mix-blend-hard-light box-border h-8'>
+                                </div>
+                                <div class="text-white absolute top-1 left-3 font-semibold h-8">{{row.label}}</div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </article>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="mt-5 print:mt-3 datablock">
+            <h2 class="uppercase font-semibold my-2 text-xl text-indigo-800">{{arr.employment}}</h2>
+            {% for row in arr.employment_arr %}
+            <article class="mt-4">
+                <div class="grid grid-cols-5 my-2">
+                    <div class=" col-span-1 text-slate-700">{{row.period}}:</div>
+                    <div class=" col-span-4">
+                        <h3 class="font-semibold">{{row.title}}, {{row.firm}}</h3>
+                        <div>{{row.text}}</div>
+                    </div>
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+        <div class="mt-5 print:mt-3 datablock">
+            <h2 class="uppercase font-semibold my-2 text-xl text-indigo-800">{{arr.education.label}}</h2>
+            {% for row in arr.education.arr %}
+            <article class="mt-4">
+                <div class="grid grid-cols-5 my-2">
+                    <div class=" col-span-1 text-slate-700">{{row.period}}:</div>
+                    <div class=" col-span-4">
+                        <h3 class="font-semibold">{{row.place}}</h3>
+                        <div>{{row.title}}</div>
+                    </div>
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+        <div class="mt-5 print:mt-3 datablock">
+            <h2 class="uppercase font-semibold my-2 text-xl text-indigo-800">{{arr.courses.label}}</h2>
+            {% for row in arr.courses.arr %}
+            <article class="mt-4">
+                <div class="grid grid-cols-5 my-2">
+                    <div class=" col-span-1 text-slate-700">{{row.period}}:</div>
+                    <div class=" col-span-4">
+                        <h3 class="font-semibold">{{row.place}}</h3>
+                        <div><a class="underline decoration-solid" target="_blank"
+                                href="{{ row.url | relative_url }}">{{row.title}}</a></div>
+                    </div>
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-5 print:grid-cols-5 mt-5 print:mt-3 datablock">
+            <h2 class="uppercase font-semibold col-span-1 my-2 text-xl text-indigo-800">{{arr.languages.label}}</h2>
+            <article class="mt-2 col-span-1 md:col-span-4 print:col-span-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  print:grid-cols-4 gap-x-8 gap-y-2 pb-4">
+                {% for row in arr.languages.text %}
+                <div class="flex flex-col col-span-1">
+                    <div class="h-8">
+                        <div class="relative break-after-auto break-inside-avoid">
+                            <div
+                                class="rounded-lg w-full h-2 bg-slate-200 absolute top-0 border-4 border-slate-200 box-border h-8">
+                            </div>
+                            <div
+                                class='rounded-{% if row.level!="12" %}l-{%endif%}lg w-{% if row.level=="12" %}full{%else%}{{row.level}}/12{%endif%} h-2 bg-indigo-800 absolute top-0 border-4 border-indigo-800 mix-blend-hard-light box-border h-8'>
+                            </div>
+                            <div class="text-white absolute top-1 left-3 font-semibold h-8">{{row.label}}</div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </article>
+        </div>
+    </div>    
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        document.querySelector('#print_pdf').addEventListener('click', function (event) {
+            window.print();
+        });        
+    });
+</script>

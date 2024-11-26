@@ -9,22 +9,10 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
         <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
     </head>
-    <body class="bg-slate-50 print:bg-white relative print:text-sm">
-        <main class="container mx-auto bg-white shadow shadow-indigo-600 my-4 print:m-0 print:p-0 static ...">
-            {% include header.html %}
+    <body class="bg-slate-100 print:bg-white relative print:text-sm">
+        <main class="container mx-auto bg-white shadow shadow-indigo-800 my-4 print:shadow-none print:m-0 print:p-0 static ...">
+            <!-- {% include header.html %} -->
             {{ content }}                       
         </main>   
-        <script>
-            document.addEventListener("scroll", () => {
-                let header = document.querySelector("header");
-                if (header && header.offsetTop > 0) {
-                    header.classList.add("shadow");
-                    header.classList.add("shadow-indigo-600");
-                } else if (header) {
-                    header.classList.remove("shadow");
-                    header.classList.remove("shadow-indigo-600");
-                }
-            });
-        </script> 
     </body>
 </html>
