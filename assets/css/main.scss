@@ -45,6 +45,24 @@ ul.dash-list li::before {
     background: radial-gradient(ellipse at center, #fff 10%, transparent 70%);
 }
 
+.shownmenu {
+    display: flex !important;
+    background: white;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    height: auto !important;
+    gap: 1rem !important;
+    padding: 1rem .5rem;
+    border: 1px solid #94a3b8;
+    box-shadow: 3px 3px 3px #94a3b8;
+    border-radius: .5rem;
+}
+
+.grid-auto-2 {
+    grid-template-columns: auto 1fr;
+}
+
 @media screen and (max-width:639px) {
     .language {
         margin-top: -1.3rem;
